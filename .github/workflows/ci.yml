@@ -2,15 +2,18 @@ name: Integración continua
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ main ]
+    branches: [ "master" ]
 
 jobs:
   audit:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Descargar código
+        uses: actions/checkout@v4
+
       - name: Inspect machine
         run: |
           ls -al
