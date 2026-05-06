@@ -159,8 +159,8 @@ jobs:
 ### 3.1 Añadimos el fichero  al repositorio y lo subimos 
 
 
-![Image](06-comit.jpg)
-![Image](07-push.jpg)
+![Image](./imgs/06-comit.jpg)
+![Image](./imgs/07-push.jpg)
 
 
 ```bash 
@@ -172,9 +172,9 @@ git push origin master
 ### 3.2 Ve a Actions en GitHub y Seleccionamos Docker Publish
 Como este workflow es de ejecucion manual voy a ejecutarlo 
 
-![Image](08-ejecutar-workflow.jpg)
+![Image](./imgs/08-ejecutar-workflow.jpg)
 
 
 ### 3.2 Al Pulsar Run workflow y confirmarlo nos sale ejecutandose
 
-![Image](09-docker-instalado.jpg)
+![Image](./imgs/09-docker-instalado.jpg)
