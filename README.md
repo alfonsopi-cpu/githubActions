@@ -88,7 +88,7 @@ git push origin add-hangman-front-ci
 
 Una Pull Request (PR) es una solicitud para incorporar cambios de una rama a otra dentro de un repositorio de GitHub. Se utiliza para revisar código antes de integrarlo en la rama principal del proyecto. Cuando abres una PR, otros desarrolladores pueden revisar tus cambios, comentar errores, sugerir mejoras y aprobar el código. Además, es común que se ejecuten automáticamente workflows de GitHub Actions para comprobar que el proyecto sigue funcionando correctamente antes de aceptar los cambios.
 
-![Image](./imgs/03-githubActions-pusht.jpg)
+![Image](./imgs/03-githubActions-pullt.jpg)
 ![Image](./imgs/04-pullrequest.jpg)
 
 ### 3.4 En workflows se ve toda la ejecucion realizada
